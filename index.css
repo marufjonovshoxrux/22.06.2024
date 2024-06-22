@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* table {
+    width: 70%;
+    margin: 50px auto;
+    
+}
+
+tr {
+    
+    background-color: #c4c4c4;
+}
+th,td {
+    padding: 20px;
+    text-align: start;
+} */
+
+
+.container  {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 150px 20px;
+    max-width: 1313px;
+    margin: 76px auto;
+    
+}
+
+ h1{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.8px;
+    text-align: center;
+    margin-top: 65px;
+    
+}
+ button {
+    margin-top: 25px;
+    width: 254px;
+    height: 55px;
+    top: 160px;
+    left: 606px;
+    gap: 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+    
+    /* opacity: 0px; */
+    
+}
+
+
+
+.box {
+    margin-top: 25px;
+    width: 364px;
+    height: 474px;
+    border: 2px solid black;
+    
+    
+    
+
+
+}
+
+.box .img {
+    text-align: center;
+    padding: 19px 0 19px;
+}
+.box .img .img {
+    width: 115px;
+    height: 161px;
+    
+
+}
+
+.box .text{
+    background: #000000;
+    color:#FFFFFF;
+
+}
+
+.box .text h1 {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.box .text p {
+    font-size: 14px;
+    text-align: center;
+    color:#FFFFFF8F;
+    font-family: Roboto;
+    padding-left: 30px;
+    padding-right: 37px;
+    
+
+}
+
+.box .text div {
+    font-size:  24px;
+    padding-left: 34px;
+    padding-top: 16px;
+    font-family: Roboto;
+}
+
+.box .text button {
+    width: 305px;
+    height: 55px;
+    background-color:#FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+}
